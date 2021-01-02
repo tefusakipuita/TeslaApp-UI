@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE45D24A2569C78200C161BE /* Tesla_CybertruckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2492569C78200C161BE /* Tesla_CybertruckApp.swift */; };
+		EE45D24C2569C78200C161BE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D24B2569C78200C161BE /* MainView.swift */; };
+		EE45D24E2569C78400C161BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE45D24D2569C78400C161BE /* Assets.xcassets */; };
+		EE45D2512569C78400C161BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE45D2502569C78400C161BE /* Preview Assets.xcassets */; };
+		EE45D25E2569D2B800C161BE /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D25D2569D2B800C161BE /* Extension.swift */; };
+		EE45D2622569D94C00C161BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2612569D94C00C161BE /* HomeView.swift */; };
+		EE45D2652569DDC200C161BE /* DarkButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2642569DDC200C161BE /* DarkButtonStyle.swift */; };
+		EE45D2682569DEB200C161BE /* DarkButtonBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2672569DEB200C161BE /* DarkButtonBackground.swift */; };
+		EE45D26C256A791D00C161BE /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D26B256A791D00C161BE /* CustomToggleStyle.swift */; };
+		EE45D271256A9F7600C161BE /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D270256A9F7600C161BE /* DashboardView.swift */; };
+		EE45D275256B64EB00C161BE /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D274256B64EB00C161BE /* StatusView.swift */; };
+		EE45D278256B6AB300C161BE /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D277256B6AB300C161BE /* InformationView.swift */; };
+		EE45D27B256B782400C161BE /* ACControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D27A256B782400C161BE /* ACControlView.swift */; };
+		EE45D27E256B9D0100C161BE /* ProgressBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D27D256B9D0100C161BE /* ProgressBackgroundView.swift */; };
+		EE45D281256C144200C161BE /* KnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D280256C144200C161BE /* KnobView.swift */; };
+		EE45D284256C146B00C161BE /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D283256C146B00C161BE /* IndicatorView.swift */; };
+		EE45D287256C311B00C161BE /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D286256C311B00C161BE /* CircularProgressView.swift */; };
+		EE45D28B256C315B00C161BE /* CircularProgressConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D28A256C315B00C161BE /* CircularProgressConfig.swift */; };
+		EE45D28E256D744700C161BE /* ProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D28D256D744700C161BE /* ProgressIndicatorView.swift */; };
+		EE45D295256D89C600C161BE /* FanSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D294256D89C600C161BE /* FanSliderView.swift */; };
+		EE45D299256D89D000C161BE /* FanModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D298256D89D000C161BE /* FanModeView.swift */; };
+		EE45D29C256D8A5100C161BE /* ModeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D29B256D8A5100C161BE /* ModeTabView.swift */; };
+		EE45D29F256D8EB800C161BE /* FanSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D29E256D8EB800C161BE /* FanSlider.swift */; };
+		EE45D2A3256D965C00C161BE /* FanSliderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2A2256D965C00C161BE /* FanSliderConfig.swift */; };
+		EE45D2A7256DD24B00C161BE /* ACMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2A6256DD24B00C161BE /* ACMode.swift */; };
+		EE45D2AB256DD51200C161BE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2AA256DD51200C161BE /* Data.swift */; };
+		EE45D2AE256DD7C000C161BE /* ACModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2AD256DD7C000C161BE /* ACModeManager.swift */; };
+		EE45D2B1256DED7100C161BE /* ACModeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45D2B0256DED7100C161BE /* ACModeBackground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE45D2462569C78200C161BE /* Tesla Cybertruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tesla Cybertruck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE45D2492569C78200C161BE /* Tesla_CybertruckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tesla_CybertruckApp.swift; sourceTree = "<group>"; };
+		EE45D24B2569C78200C161BE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EE45D24D2569C78400C161BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE45D2502569C78400C161BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE45D2522569C78400C161BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE45D25D2569D2B800C161BE /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EE45D2612569D94C00C161BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE45D2642569DDC200C161BE /* DarkButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkButtonStyle.swift; sourceTree = "<group>"; };
+		EE45D2672569DEB200C161BE /* DarkButtonBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkButtonBackground.swift; sourceTree = "<group>"; };
+		EE45D26B256A791D00C161BE /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
+		EE45D270256A9F7600C161BE /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		EE45D274256B64EB00C161BE /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		EE45D277256B6AB300C161BE /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		EE45D27A256B782400C161BE /* ACControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACControlView.swift; sourceTree = "<group>"; };
+		EE45D27D256B9D0100C161BE /* ProgressBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBackgroundView.swift; sourceTree = "<group>"; };
+		EE45D280256C144200C161BE /* KnobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobView.swift; sourceTree = "<group>"; };
+		EE45D283256C146B00C161BE /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		EE45D286256C311B00C161BE /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		EE45D28A256C315B00C161BE /* CircularProgressConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressConfig.swift; sourceTree = "<group>"; };
+		EE45D28D256D744700C161BE /* ProgressIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorView.swift; sourceTree = "<group>"; };
+		EE45D294256D89C600C161BE /* FanSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanSliderView.swift; sourceTree = "<group>"; };
+		EE45D298256D89D000C161BE /* FanModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanModeView.swift; sourceTree = "<group>"; };
+		EE45D29B256D8A5100C161BE /* ModeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeTabView.swift; sourceTree = "<group>"; };
+		EE45D29E256D8EB800C161BE /* FanSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanSlider.swift; sourceTree = "<group>"; };
+		EE45D2A2256D965C00C161BE /* FanSliderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanSliderConfig.swift; sourceTree = "<group>"; };
+		EE45D2A6256DD24B00C161BE /* ACMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACMode.swift; sourceTree = "<group>"; };
+		EE45D2AA256DD51200C161BE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EE45D2AD256DD7C000C161BE /* ACModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACModeManager.swift; sourceTree = "<group>"; };
+		EE45D2B0256DED7100C161BE /* ACModeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACModeBackground.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE45D2432569C78200C161BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE45D23D2569C78200C161BE = {
+			isa = PBXGroup;
+			children = (
+				EE45D2482569C78200C161BE /* Tesla Cybertruck */,
+				EE45D2472569C78200C161BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE45D2472569C78200C161BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2462569C78200C161BE /* Tesla Cybertruck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE45D2482569C78200C161BE /* Tesla Cybertruck */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D289256C313B00C161BE /* Data */,
+				EE45D2A5256DD22400C161BE /* Model */,
+				EE45D25B2569D29500C161BE /* View */,
+				EE45D25A2569D29000C161BE /* App */,
+				EE45D25C2569D29A00C161BE /* Helper */,
+				EE45D24D2569C78400C161BE /* Assets.xcassets */,
+				EE45D2522569C78400C161BE /* Info.plist */,
+				EE45D24F2569C78400C161BE /* Preview Content */,
+				EE45D286256C311B00C161BE /* CircularProgressView.swift */,
+			);
+			path = "Tesla Cybertruck";
+			sourceTree = "<group>";
+		};
+		EE45D24F2569C78400C161BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2502569C78400C161BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE45D25A2569D29000C161BE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2492569C78200C161BE /* Tesla_CybertruckApp.swift */,
+				EE45D24B2569C78200C161BE /* MainView.swift */,
+				EE45D2612569D94C00C161BE /* HomeView.swift */,
+				EE45D270256A9F7600C161BE /* DashboardView.swift */,
+				EE45D27A256B782400C161BE /* ACControlView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE45D25B2569D29500C161BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2672569DEB200C161BE /* DarkButtonBackground.swift */,
+				EE45D2B0256DED7100C161BE /* ACModeBackground.swift */,
+				EE45D293256D89A900C161BE /* Dashboard */,
+				EE45D291256D897900C161BE /* ACControl */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE45D25C2569D29A00C161BE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D25D2569D2B800C161BE /* Extension.swift */,
+				EE45D2642569DDC200C161BE /* DarkButtonStyle.swift */,
+				EE45D26B256A791D00C161BE /* CustomToggleStyle.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EE45D289256C313B00C161BE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D28A256C315B00C161BE /* CircularProgressConfig.swift */,
+				EE45D2A2256D965C00C161BE /* FanSliderConfig.swift */,
+				EE45D2AA256DD51200C161BE /* Data.swift */,
+				EE45D2AD256DD7C000C161BE /* ACModeManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EE45D291256D897900C161BE /* ACControl */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D27D256B9D0100C161BE /* ProgressBackgroundView.swift */,
+				EE45D280256C144200C161BE /* KnobView.swift */,
+				EE45D28D256D744700C161BE /* ProgressIndicatorView.swift */,
+				EE45D283256C146B00C161BE /* IndicatorView.swift */,
+				EE45D294256D89C600C161BE /* FanSliderView.swift */,
+				EE45D29E256D8EB800C161BE /* FanSlider.swift */,
+				EE45D298256D89D000C161BE /* FanModeView.swift */,
+				EE45D29B256D8A5100C161BE /* ModeTabView.swift */,
+			);
+			path = ACControl;
+			sourceTree = "<group>";
+		};
+		EE45D293256D89A900C161BE /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D274256B64EB00C161BE /* StatusView.swift */,
+				EE45D277256B6AB300C161BE /* InformationView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		EE45D2A5256DD22400C161BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE45D2A6256DD24B00C161BE /* ACMode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE45D2452569C78200C161BE /* Tesla Cybertruck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE45D2552569C78400C161BE /* Build configuration list for PBXNativeTarget "Tesla Cybertruck" */;
+			buildPhases = (
+				EE45D2422569C78200C161BE /* Sources */,
+				EE45D2432569C78200C161BE /* Frameworks */,
+				EE45D2442569C78200C161BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tesla Cybertruck";
+			productName = "Tesla Cybertruck";
+			productReference = EE45D2462569C78200C161BE /* Tesla Cybertruck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE45D23E2569C78200C161BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EE45D2452569C78200C161BE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EE45D2412569C78200C161BE /* Build configuration list for PBXProject "Tesla Cybertruck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE45D23D2569C78200C161BE;
+			productRefGroup = EE45D2472569C78200C161BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE45D2452569C78200C161BE /* Tesla Cybertruck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE45D2442569C78200C161BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE45D2512569C78400C161BE /* Preview Assets.xcassets in Resources */,
+				EE45D24E2569C78400C161BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE45D2422569C78200C161BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE45D2652569DDC200C161BE /* DarkButtonStyle.swift in Sources */,
+				EE45D271256A9F7600C161BE /* DashboardView.swift in Sources */,
+				EE45D28E256D744700C161BE /* ProgressIndicatorView.swift in Sources */,
+				EE45D29F256D8EB800C161BE /* FanSlider.swift in Sources */,
+				EE45D29C256D8A5100C161BE /* ModeTabView.swift in Sources */,
+				EE45D275256B64EB00C161BE /* StatusView.swift in Sources */,
+				EE45D281256C144200C161BE /* KnobView.swift in Sources */,
+				EE45D2AB256DD51200C161BE /* Data.swift in Sources */,
+				EE45D295256D89C600C161BE /* FanSliderView.swift in Sources */,
+				EE45D25E2569D2B800C161BE /* Extension.swift in Sources */,
+				EE45D299256D89D000C161BE /* FanModeView.swift in Sources */,
+				EE45D2A3256D965C00C161BE /* FanSliderConfig.swift in Sources */,
+				EE45D2B1256DED7100C161BE /* ACModeBackground.swift in Sources */,
+				EE45D24C2569C78200C161BE /* MainView.swift in Sources */,
+				EE45D278256B6AB300C161BE /* InformationView.swift in Sources */,
+				EE45D28B256C315B00C161BE /* CircularProgressConfig.swift in Sources */,
+				EE45D2AE256DD7C000C161BE /* ACModeManager.swift in Sources */,
+				EE45D26C256A791D00C161BE /* CustomToggleStyle.swift in Sources */,
+				EE45D27E256B9D0100C161BE /* ProgressBackgroundView.swift in Sources */,
+				EE45D24A2569C78200C161BE /* Tesla_CybertruckApp.swift in Sources */,
+				EE45D284256C146B00C161BE /* IndicatorView.swift in Sources */,
+				EE45D2A7256DD24B00C161BE /* ACMode.swift in Sources */,
+				EE45D2622569D94C00C161BE /* HomeView.swift in Sources */,
+				EE45D2682569DEB200C161BE /* DarkButtonBackground.swift in Sources */,
+				EE45D287256C311B00C161BE /* CircularProgressView.swift in Sources */,
+				EE45D27B256B782400C161BE /* ACControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE45D2532569C78400C161BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE45D2542569C78400C161BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE45D2562569C78400C161BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tesla Cybertruck/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Y5U8HGS74;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tesla Cybertruck/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tefusakipuita.Tesla-Cybertruck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE45D2572569C78400C161BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tesla Cybertruck/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Y5U8HGS74;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tesla Cybertruck/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tefusakipuita.Tesla-Cybertruck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE45D2412569C78200C161BE /* Build configuration list for PBXProject "Tesla Cybertruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE45D2532569C78400C161BE /* Debug */,
+				EE45D2542569C78400C161BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE45D2552569C78400C161BE /* Build configuration list for PBXNativeTarget "Tesla Cybertruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE45D2562569C78400C161BE /* Debug */,
+				EE45D2572569C78400C161BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE45D23E2569C78200C161BE /* Project object */;
+}
